@@ -56,9 +56,23 @@ h1 {
     margin-top: 10px;
 }
 
-.html, .css, .js, .git, .jquery, .mongo {
-    width: 30%;
+.html, .css, .js, .git, .jquery, .mongo, .node, .react {
+    width: 40%;
     text-align: center;
     
+}
+
+
+.column {
+    text-align: center;
+}
+
+.skills, .skills-title {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.columns {
+    margin-top: 5px;
 }
 
