@@ -52,9 +52,14 @@ h1 {
 .me {
     width: 40%;
     border-radius: 100%;
-    margin-left: 40%;
+    margin-left: 10%;
     margin-top: 10px;
 }
+
+.me-column {
+    align-content: center;
+}
+
 
 .html, .css, .js, .git, .jquery, .mongo, .node, .react {
     width: 40%;
