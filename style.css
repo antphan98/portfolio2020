@@ -18,7 +18,47 @@
     text-align: center;
  
 }
+.blossom {
+    float: left;
+    margin-left: -50px;
+    margin-top: -250px;
+    width: 500px;
+}
 
 .title {
     font-size: 50px;
 }
+
+h1 {
+    font-size: 3rem;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+* {
+    font-family: Questrial;
+    color: grey;
+}
+
+.footer {
+    background-color: #ffc2d1;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    height: 7rem;
+}
+
+.me {
+    width: 40%;
+    border-radius: 100%;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.html, .css, .js, .git, .jquery, .mongo {
+    width: 30%;
+    text-align: center;
+    
+}
+
