@@ -72,7 +72,7 @@ h1 {
     text-align: center;
 }
 
-.skills, .skills-title, .cli-title {
+.skills, .skills-title, .cli-title, .contact {
     margin-top: 60px;
     text-align: center;
 }
@@ -99,4 +99,20 @@ h2 {
 
 .fullstack-title, .frontend-title {
     text-align: center;
+}
+
+.linkedin, .resume, .github {
+    width: 30%;
+}
+
+.navbar-item {
+    transition: 0.3s;
+}
+
+.navbar-start:hover {
+    color: #ffbacb;
+}
+
+.title {
+    transition: 0.3s;
 }
