@@ -1,118 +1,151 @@
 .navbar-start {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5rem;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
 }
 
 .hero-body {
-
-    background-image: url(images/hiclipart.com.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 35%;
-    height: 500px;
-    background-color: white;
-    text-align: center;
- 
+  background-image: url(images/hiclipart.com.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 35%;
+  height: 500px;
+  background-color: white;
+  text-align: center;
 }
 .blossom {
-    float: left;
-    margin-left: -50px;
-    margin-top: -250px;
-    width: 500px;
+  float: left;
+  margin-left: -50px;
+  margin-top: -250px;
+  width: 500px;
 }
 
 .title {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .about {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 * {
-    font-family: Questrial;
-    color: grey;
+  font-family: Questrial;
+  color: grey;
 }
 
 .footer {
-    background-color: #ffc2d1;
-    padding-bottom: 60px;
-    margin-top: 50px;
-    height: 7rem;
+  background-color: #ffc2d1;
+  padding-bottom: 60px;
+  margin-top: 50px;
+  height: 7rem;
 }
 
 .me {
-    width: 40%;
-    border-radius: 100%;
-    margin-left: 10%;
-    margin-top: 10px;
+  width: 40%;
+  border-radius: 100%;
+  margin-left: 10%;
+  margin-top: 10px;
 }
 
 .me-column {
-    align-content: center;
+  align-content: center;
 }
 
-
-.html, .css, .js, .git, .jquery, .mongo, .node, .react {
-    width: 40%;
-    text-align: center;
-    
+.html,
+.css,
+.js,
+.git,
+.jquery,
+.mongo,
+.node,
+.react {
+  width: 40%;
+  text-align: center;
 }
-
 
 .column {
-    text-align: center;
+  text-align: center;
 }
 
-.skills, .skills-title, .cli-title, .contact {
-    margin-top: 60px;
-    text-align: center;
+.skills,
+.skills-title,
+.cli-title,
+.contact {
+  margin-top: 60px;
+  text-align: center;
 }
 
 .columns {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
-.levelup, .pawpals, .train, .liri, .bamazon {
-    width: 80%;
+.levelup,
+.pawpals,
+.train,
+.liri,
+.bamazon {
+  width: 80%;
 }
 
 .passport {
-    width: 30%;
+  width: 30%;
 }
 
 h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.fullstack, .frontend {
-    margin-top: 50px;
+.fullstack,
+.frontend {
+  margin-top: 50px;
 }
 
-.fullstack-title, .frontend-title {
-    text-align: center;
+.fullstack-title,
+.frontend-title {
+  text-align: center;
 }
 
-.linkedin, .resume, .github {
-    width: 30%;
+.linkedin,
+.resume,
+.github {
+  width: 30%;
 }
 
 .navbar-item {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .navbar-start:hover {
-    color: #ffbacb;
+  color: #ffbacb;
 }
 
 .title {
-    transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+  .blossom {
+    width: 200px;
+  }
+
+  .title {
+    margin-top: 100px;
+  }
+
+  h1.title {
+    color: black;
+  }
+
+  .me {
+    margin-left: 0px;
+    border-color: #ffbacb;
+    border: 10px;
+  }
 }
