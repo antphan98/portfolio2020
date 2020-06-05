@@ -77,7 +77,8 @@ h1 {
 .skills,
 .skills-title,
 .cli-title,
-.contact {
+.contact,
+.wordpress {
   margin-top: 60px;
   text-align: center;
 }
@@ -92,6 +93,10 @@ h1 {
 .liri,
 .bamazon {
   width: 80%;
+}
+
+.bobotea {
+  width: 60%;
 }
 
 .passport {
