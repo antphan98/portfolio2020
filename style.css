@@ -7,20 +7,29 @@
   font-size: 1.5rem;
 }
 
+#nav-toggle-state {
+  display: none;
+}
+
+#nav-toggle-state:checked~.nav-menu {
+  display: block;
+}
+
 .hero-body {
   background-image: url(images/hiclipart.com.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 35%;
+  background-size: 40vw;
   height: 500px;
   background-color: white;
   text-align: center;
 }
+
 .blossom {
   float: left;
   margin-left: -50px;
-  margin-top: -250px;
-  width: 500px;
+  margin-top: -20%;
+  width: 40vw;
 }
 
 .title {
@@ -91,7 +100,8 @@ h1 {
 .pawpals,
 .train,
 .liri,
-.bamazon {
+.bamazon,
+.nookcentral {
   width: 80%;
 }
 
@@ -137,7 +147,8 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   .blossom {
-    width: 200px;
+    width: 40vw;
+    margin-top: -50%;
   }
 
   .title {
