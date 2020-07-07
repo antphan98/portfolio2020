@@ -67,7 +67,9 @@ h1 {
 .jquery,
 .mongo,
 .node,
-.react {
+.react,
+.nextjs,
+.firebase {
   width: 40%;
   text-align: center;
 }
@@ -161,6 +163,34 @@ h2 {
   .columns.is-vcentered {
     margin: 10px;
   }
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar,
+  .navbar-end,
+  .navbar-menu,
+  .navbar-start {
+    align-items: stretch;
+    display: flex;
+    text-align: center;
+  }
+
+  .html,
+  .css,
+  .js,
+  .git,
+  .jquery,
+  .mongo,
+  .node,
+  .react,
+  .nextjs,
+  .firebase {
+    width: 20%;
+    text-align: center;
+
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
